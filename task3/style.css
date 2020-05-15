@@ -486,7 +486,6 @@ q {
 }
 
 @media screen and (max-width: 768px){
-/*
 	#ct01 .box{
 		width: calc(50% - 20px);
 	}
@@ -651,7 +650,6 @@ q {
 	.sp-320{
 		display: none;
 	}
-*/
 }
 
 @media (max-width: 320px){
