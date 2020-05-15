@@ -445,6 +445,10 @@ q {
 	height: 700px;
 }
 
+.sp-320, .pc-desc{
+	display: none;
+}
+
 @media (max-width: 1170px){
 	.wrap-ct2, .wrap-header, .wrap-ct4, .wrapper-slideshow, .footer-area01{
 		width: 1170px;
@@ -482,6 +486,21 @@ q {
 	}
 	.sp-320{
 		display: none;
+	}
+	.pc-desc{
+		display: none;
+	}
+	#header .logo{
+		padding-top: 55px;
+		padding-left: 50px;
+	}
+	
+	.logo img{
+		width: 300px;
+    	height: 40px;
+	}
+	#header .top {
+		height: 130px;
 	}
 }
 
@@ -650,6 +669,12 @@ q {
 	.sp-320{
 		display: none;
 	}
+	.pc-full{
+		display: none;
+	}
+	.pc-desc{
+		display: block!important;
+	}
 }
 
 @media (max-width: 320px){
@@ -696,7 +721,7 @@ q {
 		margin-top: 100px!important;
 	}
 	.wrap-ct1 {
-    	height: 3000px;
+    	height: 4300px;
 	}
 	#ct02 .container {
     	width: 100%;
@@ -757,6 +782,70 @@ q {
 	}
 	.wrap-ct4 {
 		height: 850px;
+	}
+	.pc-full, .pc-desc{
+		display: none!important;
+	}
+	.campaign-text {
+    	font-size: 45px;
+    	line-height: 55px;
+	}
+	.campaign-desc {
+		font-size: 25px;
+	}
+	.content5 {
+		height: 430px;
+	}
+	.btn-sbm {
+    	width: 330px;
+		height: 75px;
+	}
+	.btn-sbm p {
+		font-size: 24px;
+	}
+	#sp-768{
+		display: none;
+	}
+	.ttl-head, .head-desc {
+    	font-size: 32px;
+    	line-height: 48px;
+	}
+	.location, .share, .about {
+		margin-top: 100px;
+	}
+	.share img{
+		width: 80px;
+    	height: 80px;
+		margin-left: 10px;
+	}
+	.footer-area01 {
+		height: 900px;
+	}
+	.location {
+		padding-top: 45px;
+	}
+	.footer-ct02 img {
+		width: 850px;
+		height: 80px;
+		margin-top: 52px;
+	}
+	.footer-ct02 {
+		height: 170px;
+	}
+	.footer-ct01 {
+		height: 700px;
+	}
+	#header .logo{
+		padding-top: 55px;
+		padding-left: 50px;
+	}
+	
+	.logo img{
+		width: 400px;
+    	height: 55px;
+	}
+	#header .top {
+		height: 150px;
 	}
 }
 
