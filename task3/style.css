@@ -156,11 +156,11 @@
   	background: rgba(232, 69, 69, 0.9);
   	color: #f1f1f1; 
   	width: 100%;
-	height: calc(100% - 100px);
+	height: calc(100% - 130px);
   	transition: .5s ease;
   	opacity:0;
   	font-size: 20px;
-  	padding-top: 100px;
+  	padding-top: 130px;
   	text-align: center;
 }
 
@@ -181,7 +181,8 @@
 }
 
 .profile01, .profile02, .profile03, .profile04{
-	width: 270px;
+/*	width: 270px;*/
+	width: 23%;
 	height: 580px;
 	margin-left: 30px;
 	float: left;
@@ -266,7 +267,7 @@
 }
 	
 .slideshow-image{
-	width: 50%;
+	width: 49%;
 	height: auto;
 }
 
@@ -277,7 +278,7 @@
 }
 	
 .slideshow-container {
-	width: 50%;
+	width: 51%;
 	height: auto;
   	background: #53354a;
 }
@@ -450,9 +451,314 @@ q {
 	}
 }
 
+@media screen and (min-width: 1081px){
+	#sp-1080, #sp-768, .sp-320{
+		display: none;
+	}
+}
 
+@media screen and (max-width: 1080px){
+	#pc{
+		display: none;
+	}
+	.wrap-ct05{
+		margin-top: 100px;
+	}
+	#ct02 .image{
+		height: 300px;
+	}
+	
+	.content03{
+		margin-top: 0;
+	}
+	
+	#ct02 .overlay {
+		height: calc(100% - 130px);
+  		padding-top: 130px;
+	}
+	
+	#sp-768{
+		display: none;
+	}
+	.sp-320{
+		display: none;
+	}
+}
 
+@media screen and (max-width: 768px){
+	#ct01 .box{
+		width: calc(50% - 20px);
+	}
+	
+	#ct02 .container{
+		width: 50%;
+	}
+	
+	.wrap-ct1{
+		height: 1000px;
+	}
+	
+	.wrap-ct2 {
+		height: 1400px;
+	}
+	
+	.profile01, .profile02, .profile03, .profile04{
+		width: 46%;
+		text-align: center;
+	}
+	
+	.wrap-ct3{
+		height: 1700px;
+	}
+	
+	.sosmed{
+		padding-left: 130px;
+	}
+	
+	.wrapper-slideshow{
+		flex-direction: column;
+/*		display: none!important;*/
+	}
+	
+	.show-image {
+    	width: 100%;
+    	text-align: center;
+	}
+	
+	.slideshow-container{
+		width: 100%;
+	}
+	
+	#sp-1080{
+		display: none;
+	}
+	
+	#pc{
+		display: block!important;
+	}
+	
+	#ct02 .image{
+		height: 350px!important;
+	}
+	
+	#ct01 .desc{
+		font-size: 20px;
+    	line-height: 30px;
+	}
 
+	#ct01 .title{
+		font-size: 20px;
+	}
+	
+	#ct01 img{
+		width: 80px;
+    	height: 80px;
+	}
+	
+	.wrap-ct2{
+		margin-top: 80px;
+	}
+	
+	.content03{
+		margin-top: 100px!important;
+	}
+	
+	.img-display{
+		width: 370px;
+		height: 370px;
+	}
+	
+	.name{
+		font-size: 30px;
+	}
+	
+	.name-ttl{
+		font-size: 20px;
+	}
+	.desc-name{
+		font-size: 21px;
+		line-height: 30px;
+	}
+	.profile01, .profile02{
+		margin-top: 20px;
+	}
+	
+	.profile03, .profile04{
+		margin-top: 200px;
+	}
+	.sosmed img{
+		width: 60px;
+		height: 60px;
+	}
+	.sosmed{
+		padding-left: 110px;
+	}
+	
+	#pc{
+		width: 1170px;
+	}
+	
+	.wrap-ct05{
+		margin-top: 460px!important;
+	}
+	
+	.footer-area01{
+		margin-top: 50px;
+	}
+	
+	.mySlides {
+		padding: 92px 80px 65px 56px;
+	}
+	
+	.location, .share, .about{
+		float: none;
+		margin-top: 35px;
+		margin-left: 0;
+		width: 100%;
+	}
+	
+	.location{
+		padding-top: 35px;
+	}
+	.footer-area01{
+		height: 546px;
+	}
+	.footer-ct01{
+		height: 450px;
+	}
+	#text-pc{
+		display: none;
+	}
+	.ttl-head, .head-desc{
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.footer-ct02{
+		height: 104px;
+	}
+	.footer-ct02 img{
+		width: 370px;
+    	height: 46px;
+		margin-top: 30px;
+	}
+	#sp-768{
+		display: block;
+	}
+	.profile01 {
+    	 margin-left: 30px; 
+	}
+	.sp-320{
+		display: none;
+	}
+}
+
+@media (max-width: 320px){
+	#ct01 .box{
+		width: 100%;
+		margin-top: 500px;
+	}
+	#ct01 img {
+    	width: 240px;
+    	height: 240px;
+	}
+	#ct01 .title {
+    	font-size: 45px;
+	}
+	.sp-320{
+		display: block;
+	}
+	.pc-ttl{
+		display: none;
+	}
+	#header .ttl {
+		padding-top: 55px;
+		letter-spacing: 15px;
+	}
+	#header .desc {
+		font-size: 32px;
+		letter-spacing: 5px;
+	}
+	#header .btn {
+    	width: 400px;
+		height: 80px;
+	}
+	#header .bottom {
+    	height: 720px;
+	}
+	#header .btn p {
+		font-size: 30px;
+	}
+	#ct01 .desc {
+    	font-size: 40px;
+    	line-height: 60px;
+	}
+	.mt0{
+		margin-top: 100px!important;
+	}
+	.wrap-ct1 {
+    	height: 3000px;
+	}
+	#ct02 .container {
+    	width: 100%;
+	}
+	#ct02 .image {
+    	height: 650px!important;
+	}
+	.wrap-ct3 {
+    	height: 10350px;
+	}
+	.profile01, .profile02 {
+		margin-top: 100px;
+	}
+	.profile01, .profile02, .profile03, .profile04 {
+		width: 100%;
+		text-align: center;
+	}
+	.img-display {
+		width: 800px;
+		height: 800px;
+	}
+	.name {
+		font-size: 70px;
+	}
+	.profile02, .profile03, .profile04{
+		margin-top: 950px;
+	}
+	.profile01{
+		margin-top: 200px;
+		margin-left: 0;
+	}
+	.name-ttl {
+		font-size: 40px;
+		margin-top: -30px;
+	}
+	.desc-name {
+		font-size: 41px;
+		line-height: 50px;
+	}
+	.sosmed img {
+		width: 120px;
+		height: 120px;
+		margin-left: 15px;
+	}
+	.sosmed {
+		padding-left: 185px;
+	}
+	q {
+		font-size: 60px;
+	}
+	.author {
+    	font-size: 35px;
+		margin-top: 35px;
+	}
+	.dot{
+		height: 30px;
+    	width: 30px;
+	}
+	.wrap-ct4 {
+		height: 850px;
+	}
+}
 
 
 

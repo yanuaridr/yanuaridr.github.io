@@ -5,6 +5,7 @@
 <title>2181981</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="reset.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
@@ -27,8 +28,10 @@
 				</div>
 			</div>
 			<div class="bottom">
-				<p class="ttl">Your Favorite One Page<br>Multi Purpose Template</p>
-				<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna<br>vel scelerisque nisl consectetur et.</p>
+				<p class="ttl pc-ttl">Your Favorite One Page<br>Multi Purpose Template</p>
+				<p class="ttl sp-320">Your Favorite One<br>Page Multi<br>Purpose Template</p>
+				<p class="desc pc-ttl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus<br>magna vel scelerisque nisl consectetur et.</p>
+				<p class="desc sp-320">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Praesent commodo cursus<br>magna vel scelerisque nisl consectetur et.</p>
 				<a href="#">
 					<div class="btn">
 						<p>FIND OUT MORE</p>
@@ -39,7 +42,7 @@
 		<div class="wrap-ct1" id="ct01">
 			<div class="content01">
 				<div>
-					<div class="box">
+					<div class="box mt0">
 						<img src="pict01.png" alt="pict01" width="60" height="60">
 						<p class="title">EASILY CUSTOMISED</p>
 						<p class="desc">Cras justo odio, dapibus ac facilisis in, egestas<br>eget quam. Nullam quis risus eget urna mollis<br>ornare vel eu leo. Donec ullamcorper nulla</p>
@@ -117,7 +120,7 @@
 		<div class="wrap-ct3" id="ct03">
 			<div class="content03">
 				<div class="profile01">
-					<img src="people01.jpg" alt="Ruth Woods" width="270" height="270">
+					<img src="people01.jpg" alt="Ruth Woods" width="270" height="270" class="img-display">
 					<p class="name">Ruth Woods</p>
 					<p class="name-ttl">FOUNDER, CEO</p>
 					<p class="desc-name">Fusce dapibus, tellus ac cursus<br>commodo, tortor mauris condimentum<br>nibh, ut fermentum massa justo sit amet<br>risus. Maecenas sed diam eget risus<br>varius blandit sit amet non magna.<br>Nullam quis risus eget urna mollis ornare<br>vel eu leo.</p>
@@ -128,7 +131,7 @@
 					</div>
 				</div>
 				<div class="profile02">
-					<img src="people02.jpg" alt="Timothy Reed" width="270" height="270">
+					<img src="people02.jpg" alt="Timothy Reed" width="270" height="270" class="img-display">
 					<p class="name">Timothy Reed</p>
 					<p class="name-ttl">CO-FOUNDER, DEVELOPER</p>
 					<p class="desc-name">Fusce dapibus, tellus ac cursus<br>commodo, tortor mauris condimentum<br>nibh, ut fermentum massa justo sit amet<br>risus. Maecenas sed diam eget risus<br>varius blandit sit amet non magna.<br>Nullam quis risus eget urna mollis ornare<br>vel eu leo.</p>
@@ -139,7 +142,7 @@
 					</div>
 				</div>
 				<div class="profile03">
-					<img src="people03.jpg" alt="Victoria Valdez" width="270" height="270">
+					<img src="people03.jpg" alt="Victoria Valdez" width="270" height="270" class="img-display">
 					<p class="name">Victoria Valdez</p>
 					<p class="name-ttl">UI DESIGNER</p>
 					<p class="desc-name">Fusce dapibus, tellus ac cursus<br>commodo, tortor mauris condimentum<br>nibh, ut fermentum massa justo sit amet<br>risus. Maecenas sed diam eget risus<br>varius blandit sit amet non magna.<br>Nullam quis risus eget urna mollis ornare<br>vel eu leo.</p>
@@ -150,7 +153,7 @@
 					</div>
 				</div>
 				<div class="profile04">
-					<img src="people04.jpg" alt="Beverly Little" width="270" height="270">
+					<img src="people04.jpg" alt="Beverly Little" width="270" height="270" class="img-display">
 					<p class="name">Beverly Little</p>
 					<p class="name-ttl">DATA SCIENTIST</p>
 					<p class="desc-name">Fusce dapibus, tellus ac cursus<br>commodo, tortor mauris condimentum<br>nibh, ut fermentum massa justo sit amet<br>risus. Maecenas sed diam eget risus<br>varius blandit sit amet non magna.<br>Nullam quis risus eget urna mollis ornare<br>vel eu leo.</p>
@@ -165,7 +168,8 @@
 		<div class="wrap-ct4" id="ct04">
 			<div class="wrapper-slideshow">
 				<div class="show-image">
-					<img src="image09.jpg" alt="">
+					<img src="image09.jpg" alt="" id="pc">
+					<img src="image09-sp1080.jpg" alt="" id="sp-1080">
 				</div>
 				<div class="slideshow-container">
 					<div class="mySlides">
@@ -216,7 +220,8 @@
 				</div>
 				<div class="about">
 					<p class="ttl-head">ABOUT ACTIVE BOX</p>
-					<p class="head-desc">Cras justo odio, dapibus ac facilisis in, egestas eget<br>quam. Donec ullamcorper nulla non metus auctor<br>fringilla.</p>
+					<p class="head-desc" id="text-pc">Cras justo odio, dapibus ac facilisis in, egestas eget<br>quam. Donec ullamcorper nulla non metus auctor<br>fringilla.</p>
+					<p class="head-desc" id="sp-768">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
 				</div>
 			</div>
 			<div class="footer-ct02">
