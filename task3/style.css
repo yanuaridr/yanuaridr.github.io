@@ -517,7 +517,7 @@ q {
 	
 	.wrapper-slideshow{
 		flex-direction: column;
-		display: none!important;
+/*		display: none!important;*/
 	}
 	
 	.show-image {
