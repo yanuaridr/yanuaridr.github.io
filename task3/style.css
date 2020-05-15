@@ -655,42 +655,18 @@ q {
 @media (max-width: 320px){
 	#ct01 .box{
 		width: 100%;
-		margin-top: 500px;
+		margin-top: 280px;
 	}
 	#ct01 img {
-    	width: 240px;
-    	height: 240px;
+    	width: 160px;
+    	height: 160px;
 	}
 	#ct01 .title {
-    	font-size: 45px;
-	}
-	.sp-320{
-		display: block;
-	}
-	.pc-ttl{
-		display: none;
-	}
-	#header .ttl {
-		padding-top: 55px;
-		letter-spacing: 15px;
-	}
-	#header .desc {
-		font-size: 32px;
-		letter-spacing: 5px;
-	}
-	#header .btn {
-    	width: 400px;
-		height: 80px;
-	}
-	#header .bottom {
-    	height: 720px;
-	}
-	#header .btn p {
-		font-size: 30px;
+    	font-size: 30px;
 	}
 	#ct01 .desc {
-    	font-size: 40px;
-    	line-height: 60px;
+    	font-size: 30px;
+    	line-height: 40px;
 	}
 	.mt0{
 		margin-top: 100px!important;
@@ -705,58 +681,7 @@ q {
     	height: 650px!important;
 	}
 	.wrap-ct3 {
-    	height: 10350px;
-	}
-	.profile01, .profile02 {
-		margin-top: 100px;
-	}
-	.profile01, .profile02, .profile03, .profile04 {
-		width: 100%;
-		text-align: center;
-	}
-	.img-display {
-		width: 800px;
-		height: 800px;
-	}
-	.name {
-		font-size: 70px;
-	}
-	.profile02, .profile03, .profile04{
-		margin-top: 950px;
-	}
-	.profile01{
-		margin-top: 200px;
-		margin-left: 0;
-	}
-	.name-ttl {
-		font-size: 40px;
-		margin-top: -30px;
-	}
-	.desc-name {
-		font-size: 41px;
-		line-height: 50px;
-	}
-	.sosmed img {
-		width: 120px;
-		height: 120px;
-		margin-left: 15px;
-	}
-	.sosmed {
-		padding-left: 185px;
-	}
-	q {
-		font-size: 60px;
-	}
-	.author {
-    	font-size: 35px;
-		margin-top: 35px;
-	}
-	.dot{
-		height: 30px;
-    	width: 30px;
-	}
-	.wrap-ct4 {
-		height: 850px;
+    	height: 10000px;
 	}
 }
 
